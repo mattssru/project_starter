@@ -1,0 +1,5 @@
+git remote add base https://gitlab.com/2Dev/starter.git
+git fetch base
+git merge base/api-template --allow-unrelated-histories 
+git remote remove base
+
